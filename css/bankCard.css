@@ -1,0 +1,21 @@
+body { background: #f1f1f1; }
+
+#outerWrap { width: 100%; }
+#outerWrap .brankOut { width: 100%; height: 100vh; position: fixed; background: rgba(0, 0, 0, 0.5); top: 0; z-index: 999; display: none; font-size: .3rem; }
+#outerWrap .brankOut .bbottom { position: absolute; bottom: 0; background: #fff; width: 100%; text-align: center; color: #666; }
+#outerWrap .brankOut .bbottom h4 { width: 100%; height: 1rem; line-height: 1rem; color: #333; border-bottom: .01rem solid #ccc; }
+#outerWrap .brankOut .bbottom ul { width: 100%; padding: 0 .2rem; box-sizing: border-box; }
+#outerWrap .brankOut .bbottom ul li { width: 100%; height: 1rem; line-height: 1rem; border-bottom: .01rem solid #eee; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+#outerWrap .brankOut .bbottom ul li p { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+#outerWrap .brankOut .bbottom ul li p b { display: inline-block; width: .5rem; height: .5rem; margin-right: .2rem; }
+#outerWrap .brankOut .bbottom ul li span { display: inline-block; width: .5rem; height: .5rem; }
+#outerWrap .brankOut .bbottom ul li .active { background: url(../img/dui.png) no-repeat center center; background-size: .5rem; }
+#outerWrap .brankOut .bbottom > span { display: inline-block; width: 100%; height: 1rem; line-height: 1rem; }
+#outerWrap .content { width: 100%; padding: .2rem .2rem 0; box-sizing: border-box; }
+#outerWrap .content form { width: 100%; }
+#outerWrap .content form input { width: 100%; height: .78rem; outline: 0 none; border: .01rem solid #ccc; font-size: .26rem; color: #999; padding: 0 .2rem; box-sizing: border-box; margin-top: .2rem; }
+#outerWrap .content form p { width: 100%; height: .78rem; border: .01rem solid #ccc; font-size: .26rem; color: #999; background: #fff; padding: 0 .2rem; box-sizing: border-box; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; line-height: .78rem; position: relative; margin-top: .2rem; }
+#outerWrap .content form p i { display: inline-block; }
+#outerWrap .content form p b { display: inline-block; width: .12rem; height: .2rem; position: absolute; right: .2rem; top: .29rem; }
+#outerWrap .content form > div { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; margin-bottom: .2rem; position: relative; overflow: hidden; }
+#outerWrap .content form .sure { display: block; width: 5.4rem; height: .8rem; background: #FF7141; color: #fff; margin: 1rem auto 0; }

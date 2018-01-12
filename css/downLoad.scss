@@ -1,0 +1,54 @@
+@charset "utf-8";
+body{
+    background: #f1f1f1;
+    background: url(../img/xiazai-beijing.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+#outerWrap{
+    width:100%;
+    .content{
+        width:100%;
+        max-height: 999rem;
+//      padding: .4rem .3rem 0;
+//      box-sizing: border-box;
+        
+        .pic{
+            width: 1.9rem;
+            height: 1.9rem;
+            margin: 2.4rem auto 0;
+        }
+        .text{
+            margin: .2rem auto 1.6rem;
+            width: 1.9rem;
+            height: .63rem;
+        }
+        .downLoadBtn{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            a{
+                display: block;
+                width: 3.7rem;
+                height: .8rem;
+                border: 0.02rem solid #fa8400;
+                border-radius: .1rem;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               margin: .5rem;
+               i{
+                   display: inline-block;
+                   width: .5rem;
+                   height: .5rem;
+                   margin-right: .25rem;
+               }
+               span{
+                   font-size: .3rem;
+                   color: #fa8400;
+               }
+            }
+        }
+      
+    }
+}

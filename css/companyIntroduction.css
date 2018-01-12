@@ -1,0 +1,19 @@
+body { background: #fff; }
+
+#outerWrap { width: 100%; }
+#outerWrap .content { width: 100%; height: 100%; padding: 0 .2rem; box-sizing: border-box; }
+#outerWrap .content .jobDetail { width: 100%; color: #333; background: #fff; }
+#outerWrap .content .jobDetail h3 { width: 100%; height: .8rem; font-size: .3rme; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; border-bottom: .01rem solid #eee; margin-bottom: .3rem; }
+#outerWrap .content .jobDetail h3 span { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+#outerWrap .content .jobDetail h3 span em { display: inline-block; width: .06rem; height: .32rem; margin-right: .1rem; }
+#outerWrap .content .jobDetail h3 .collectCompany { display: inline-block; width: .4rem; height: .4rem; background: url(../img/3_shoucang.png) no-repeat center center; background-size: .4rem; }
+#outerWrap .content .jobDetail h3 .active { background: url(../img/3_shoupre.png) no-repeat center center; background-size: .4rem; }
+#outerWrap .content .jobDetail > div { width: 100%; padding: 0 .25rem .4rem; box-sizing: border-box; }
+#outerWrap .content .jobDetail > div p { color: #666; letter-spacing: .02rem; margin-bottom: .1rem; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+#outerWrap .content .jobDetail > div p i { margin-right: .2rem; }
+#outerWrap .content .jobDetail > div p span { width: 5rem; }
+#outerWrap .content .companyIntroduce { width: 100%; background: #fff; }
+#outerWrap .content .companyIntroduce h3 { width: 100%; height: .7rem; box-sizing: border-box; font-size: .3rme; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; border-bottom: .01rem solid #eee; margin-bottom: .2rem; }
+#outerWrap .content .companyIntroduce h3 em { width: .06rem; height: .32rem; margin-right: .1rem; }
+#outerWrap .content .companyIntroduce > div { width: 100%; color: #666; }
+#outerWrap .content .companyIntroduce > div P { text-indent: .5rem; line-height: 1.5; letter-spacing: .02rem; padding-bottom: .3rem; box-sizing: border-box; }
